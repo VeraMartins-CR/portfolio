@@ -10,7 +10,8 @@ import {
   FaInstagram,
   FaSnapchatGhost,
   FaTiktok,
-  FaCircle
+  FaCircle,
+  FaDownload
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
@@ -31,16 +32,23 @@ export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
-        {Object.entries(socialprofils).map(([platform, url]) => {
-          const IconComponent = ICON_MAPPING[platform] || ICON_MAPPING.default;
-          return (
-            <li key={platform}>
-              <a href={url}>
-                <IconComponent />
-              </a>
-            </li>
-          );
-        })}
+        {Object.entries(socialprofils)
+          .filter(([platform]) => platform === "linkedin")
+          .map(([platform, url]) => {
+            const IconComponent = ICON_MAPPING[platform] || ICON_MAPPING.default;
+            return (
+              <li key={platform}>
+                <a href={url}>
+                  <IconComponent />
+                </a>
+              </li>
+            );
+          })}
+        <li>
+          <a href="/cv.pdf" download>
+            <FaDownload />
+          </a>
+        </li>
       </ul>
       <p>Follow Me</p>
     </div>

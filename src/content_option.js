@@ -12,7 +12,7 @@ const introdata = {
         third: "I preserve our cultural legacy",
     },
     description: "Licenciada e mestre em Conservação e Restauro pela Faculdade de Ciências e Tecnologia – Universidade Nova de Lisboa (FCT UNL), com especialização em pintura. Desde o início da minha formação académica, desenvolvi estágios e colaborei como freelancer, adquirindo uma sólida experiência em conservação preventiva.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: require("./assets/images/vera-martins.png"),
 };
 
 const dataabout = {
@@ -92,34 +92,46 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
-        description: "Restauro do tríptico de pintura mural 'Partida de Emigrantes' de Almada Negreiros, Gare Marítima do Conde d'Óbidos",
-        link: "#",
+        img: require("./assets/images/Apresentação de Jesus no Templo/10 (editada).jpg"),
+        description: "Apresentação de Jesus no Templo",
+        link: "/project/apresentacao-jesus-templo",
+        title: "Apresentação de Jesus no Templo",
     },
     {
-        img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
-        description: "Restauro das pinturas maneiristas da Sé Catedral de Portalegre (séc. XVI-XVII)",
-        link: "#",
+        img: require("./assets/images/São João Batista e o Cordeiro/9 (editada).jpg"),
+        description: "São João Batista e o Cordeiro",
+        link: "/project/sao-joao-batista-cordeiro",
+        title: "São João Batista e o Cordeiro",
     },
     {
-        img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
-        description: "Conservação e gestão de acervo na Culturgest - Fundação Caixa Geral de Depósitos",
-        link: "#",
+        img: require("./assets/images/Nossa Senhora com o menino e S. João Batista/14.jpg"),
+        description: "Nossa Senhora com o menino e S. João Batista",
+        link: "/project/nossa-senhora-menino-joao-batista",
+        title: "Nossa Senhora com o menino e S. João Batista",
     },
     {
-        img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
-        description: "Restauro da tapeçaria 'Pórus ferido diante de Alexandre' do Palácio Nacional da Ajuda",
-        link: "#",
+        img: require("./assets/images/Pedestal com figura de peixe estilizado/1 (editada - preto).jpg"),
+        description: "Pedestal com figura de peixe estilizado",
+        link: "/project/pedestal-peixe-estilizado",
+        title: "Pedestal com figura de peixe estilizado",
     },
     {
-        img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
-        description: "Conservação de objetos de iluminação no Palácio Nacional de Queluz",
-        link: "#",
+        img: require("./assets/images/Jesus Crucificado/1 (editada).jpg"),
+        description: "Jesus Cristo Crucificado",
+        link: "/project/jesus-cristo-crucificado",
+        title: "Jesus Cristo Crucificado",
     },
     {
-        img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
-        description: "Estudo material e técnico da policromia de ataúdes egípcios de coleções portuguesas",
-        link: "#",
+        img: require("./assets/images/Embalagens de Acondicionamento/0_Preview.JPG"),
+        description: "Embalagens de Acondicionamento",
+        link: "/project/embalagens-acondicionamento",
+        title: "Embalagens de Acondicionamento",
+    },
+    {
+        img: require("./assets/images/Romy Castro, Culturgest/9.JPG"),
+        description: "Sem título",
+        link: "/project/romy-castro-culturgest",
+        title: "Sem título",
     },
 ];
 

@@ -1,0 +1,7 @@
+/* Remove any custom cursor styles */
+.cursor__dot, .cursor-dot, .cursor-dot-outline, .custom-cursor, [class*="cursor"] {
+  cursor: auto !important;
+}
+body, html, * {
+  cursor: auto !important;
+} 

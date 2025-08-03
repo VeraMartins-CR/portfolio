@@ -1,0 +1,249 @@
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.gallery-item {
+  height: fit-content;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-image {
+  transition: all 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.project-description {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid #cba135;
+}
+
+.project-details {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 2rem;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+}
+
+.project-details h5 {
+  color: #a3d9b1;
+  margin-bottom: 1rem;
+}
+
+.project-details ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.project-details li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.project-details li:last-child {
+  border-bottom: none;
+}
+
+.technical-info-list {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+
+.condition-report {
+  text-align: justify;
+}
+
+.conservation-process {
+  text-align: justify;
+}
+
+/* Modal Styles */
+.modal-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background: #000;
+  position: relative;
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* Navigation Arrows */
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.nav-arrow:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.nav-arrow-left {
+  left: 20px;
+}
+
+.nav-arrow-right {
+  right: 20px;
+}
+
+/* Modal backdrop */
+.modal-content {
+  background: rgba(0, 0, 0, 0.9);
+  border: none;
+  border-radius: 8px;
+}
+
+.modal-header {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+  background: rgba(255, 255, 255, 0.95);
+  border-top: 1px solid #dee2e6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-gallery {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .gallery-item img {
+    height: 200px;
+  }
+  
+  .project-description,
+  .project-details {
+    padding: 1rem;
+  }
+  
+  .modal-image {
+    max-height: 60vh;
+  }
+  
+  .nav-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  .nav-arrow-left {
+    left: 10px;
+  }
+  
+  .nav-arrow-right {
+    right: 10px;
+  }
+}
+
+/* Animation for page transitions */
+.page-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 400ms, transform 400ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 400ms, transform 400ms;
+} 
+
+.btn-outline-primary {
+  color: #a3d9b1 !important;
+  border-color: #a3d9b1 !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #a3d9b1 !important;
+  border-color: #a3d9b1 !important;
+  color: white !important;
+}
+
+[data-theme="light"] .btn-outline-primary {
+  color: #cba135 !important;
+  border-color: #cba135 !important;
+}
+
+[data-theme="light"] .btn-outline-primary:hover {
+  background-color: #cba135 !important;
+  border-color: #cba135 !important;
+  color: white !important;
+} 
+
+.project-details h5 {
+  color: #a3d9b1 !important;
+}
+
+[data-theme="light"] .project-details h5 {
+  color: #cba135 !important;
+} 
