@@ -41,7 +41,7 @@ export const Home = () => {
                 <div className="intro_btn-action pb-5">
                   <Link to="/about">
                     <div id="button_about" className="ac_btn btn">
-                      About Me
+                      Sobre Mim
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -57,7 +57,7 @@ export const Home = () => {
                   </Link>
                   <Link to="/portfolio">
                     <div id="button_p" className="ac_btn btn">
-                      Gallery
+                      Galeria
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -65,7 +65,7 @@ export const Home = () => {
                   </Link>
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
-                      Contact Me
+                      Contacto
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

@@ -10,8 +10,7 @@ import {
   FaInstagram,
   FaSnapchatGhost,
   FaTiktok,
-  FaCircle,
-  FaDownload
+  FaCircle
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
@@ -44,13 +43,8 @@ export const Socialicons = (params) => {
               </li>
             );
           })}
-        <li>
-          <a href="/cv.pdf" download>
-            <FaDownload />
-          </a>
-        </li>
       </ul>
-      <p>Follow Me</p>
+      <p>Seguir</p>
     </div>
   );
 };

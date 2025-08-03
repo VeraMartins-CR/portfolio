@@ -1,22 +1,22 @@
 const logotext = "VERA";
 const meta = {
     title: "Vera Martins",
-    description: "I'm Vera Martins, a Conservator and Restorer specializing in painting conservation, currently working at Culturgest in Lisbon",
+    description: "Sou Vera Martins, Conservadora e Restauradora especializada em conservação de pintura, atualmente a trabalhar na Culturgest em Lisboa",
 };
 
 const introdata = {
-    title: "I'm Vera Martins",
+    title: "Sou a Vera Martins",
     animated: {
-        first: "I conserve cultural heritage",
-        second: "I restore paintings and artworks",
-        third: "I preserve our cultural legacy",
+        first: "Conservo património cultural",
+        second: "Restauro pinturas e obras de arte",
+        third: "Preservo o nosso legado cultural",
     },
     description: "Licenciada e mestre em Conservação e Restauro pela Faculdade de Ciências e Tecnologia – Universidade Nova de Lisboa (FCT UNL), com especialização em pintura. Desde o início da minha formação académica, desenvolvi estágios e colaborei como freelancer, adquirindo uma sólida experiência em conservação preventiva.",
     your_img_url: require("./assets/images/vera-martins.png"),
 };
 
 const dataabout = {
-    title: "About my professional journey",
+    title: "Sobre a minha jornada profissional",
     aboutme: "Tenho participado em intervenções de restauro de grande relevância, destacando-se as pinturas maneiristas da Sé Catedral de Portalegre (séc. XVI-XVII) e as pinturas murais de Almada Negreiros na Gare Marítima do Conde d'Óbidos (séc. XX). Paralelamente, colaborei em projetos de conservação e gestão de acervos em instituições de referência, como a Parques de Sintra – Monte da Lua (PSML) e a Culturgest – Fundação da Caixa Geral de Depósitos (CGD).",
 };
 
@@ -75,19 +75,15 @@ const skills = [{
 
 const services = [{
         title: "Conservação Preventiva",
-        description: "Desenvolvimento de estratégias e implementação de medidas para prevenir a deterioração de obras de arte e objetos culturais.",
+        description: "Desenvolvimento de embalagens adequadas para o acondicionamento de obras em reserva e reorganização de espaços de reserva museológicos.",
     },
     {
         title: "Restauro de Pinturas",
-        description: "Intervenções de restauro em pinturas a óleo sobre tela e madeira, desde obras do século XVI até arte contemporânea.",
-    },
-    {
-        title: "Gestão de Acervos",
-        description: "Organização, catalogação e gestão de coleções museológicas, incluindo embalagens de acondicionamento e reorganização de reservas.",
+        description: "Intervenções de conservação e restauro em pinturas realizadas com diferentes técnicas, suportes e períodos históricos.",
     },
     {
         title: "Documentação Técnica",
-        description: "Elaboração de condition reports, documentação fotográfica e pareceres técnicos para incorporação de obras em acervos.",
+        description: "Elaboração de condition reports e documentação fotográfica, conforme exigido em processos de incorporação, empréstimo e exposição de obras de arte.",
     },
 ];
 
@@ -129,9 +125,9 @@ const dataportfolio = [{
     },
     {
         img: require("./assets/images/Romy Castro, Culturgest/9.JPG"),
-        description: "Sem título",
+        description: "Romy Castro, Culturgest",
         link: "/project/romy-castro-culturgest",
-        title: "Sem título",
+        title: "Romy Castro, Culturgest",
     },
 ];
 

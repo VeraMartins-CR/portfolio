@@ -191,7 +191,7 @@ export const ProjectDetail = () => {
               variant="outline-primary" 
               className="mb-3"
             >
-              ← Back to Gallery
+              ← Voltar à Galeria
             </Button>
             <h1 className="display-4 mb-4">{project.title}</h1>
             <hr className="t_border my-4 ml-0 text-left" />
@@ -200,6 +200,7 @@ export const ProjectDetail = () => {
 
         <Row className="sec_sp">
           <Col lg="12">
+            <h3 className="color_sec py-4">Galeria do Projeto</h3>
             <div className="project-gallery">
               {projectImages.map((image, index) => (
                 <div key={index} className="gallery-item mb-4">
@@ -219,10 +220,10 @@ export const ProjectDetail = () => {
         <Row className="sec_sp">
           <Col lg="12">
             <div className="project-details">
-              <h3 className="color_sec py-4">Project Details</h3>
+              <h3 className="color_sec py-4">Detalhes do Projeto</h3>
               <div className="row">
                 <div className="col-md-6">
-                  <h5>Technical Information</h5>
+                  <h5>Informação Técnica</h5>
                   <ul className="technical-info-list">
                     {projectId === 'apresentacao-jesus-templo' ? (
                       <>
@@ -262,7 +263,7 @@ export const ProjectDetail = () => {
                       </>
                     ) : projectId === 'embalagens-acondicionamento' ? (
                       <>
-                        <li><strong>Título das obras:</strong><i> Dentes, Antenas e Raízes. O Sol; Noite de Chumbo; The order of today is the disorder of tomorrow; Elemental.</i></li>
+                        <li><strong>Título das obras:</strong> Dentes, Antenas e Raízes. O Sol; Noite de Chumbo; The order of today is the disorder of tomorrow; Elemental.</li>
                         <li><strong>Data:</strong> segunda metade do século XX – atualidade</li>
                         <li><strong>Técnica:</strong> diversas</li>
                         <li><strong>Dimensões:</strong> variadas</li>
@@ -279,10 +280,10 @@ export const ProjectDetail = () => {
                       </>
                     ) : (
                       <>
-                        <li><strong>Name:</strong> [Project Name]</li>
-                        <li><strong>Date:</strong> [Project Date]</li>
-                        <li><strong>Dimensions:</strong> [Project Dimensions]</li>
-                        <li><strong>Author:</strong> [Project Author]</li>
+                        <li><strong>Nome:</strong> [Nome do Projeto]</li>
+                        <li><strong>Data:</strong> [Data do Projeto]</li>
+                        <li><strong>Dimensões:</strong> [Dimensões do Projeto]</li>
+                        <li><strong>Autor:</strong> [Autor do Projeto]</li>
                       </>
                     )}
                   </ul>
@@ -290,7 +291,7 @@ export const ProjectDetail = () => {
                 <div className="col-md-6">
                   {projectId !== 'embalagens-acondicionamento' && (
                     <>
-                      <h5>Condition Report</h5>
+                      <h5>Relatório de Estado</h5>
                       <div className="condition-report mb-4">
                         {projectId === 'apresentacao-jesus-templo' ? (
                           <p>Bom estado de conservação. Apresentava uma camada de verniz muito oxidada, sujidade superficial, excrementos de inseto e orifícios de ataque xilófago, assim como algumas lacunas de reduzida dimensão e repintes nas áreas de junção de tábuas.</p>
@@ -302,15 +303,17 @@ export const ProjectDetail = () => {
                           <p>Regular estado de conservação. Presença de uma lacuna que perturbava a leitura da peça.</p>
                         ) : projectId === 'jesus-cristo-crucificado' ? (
                           <p>Regular estado de conservação. A policromia apresentava sujidade depositada, zonas pontuais de destacamento e lacunas, uma camada de verniz oxidada e algumas zonas com repintes disfuncionais.</p>
+                        ) : projectId === 'embalagens-acondicionamento' ? (
+                          <p></p>
                         ) : projectId === 'romy-castro-culturgest' ? (
                           <p>Regular estado de conservação. Azulejo descolado do painel.</p>
                         ) : (
-                          <p>[Condition report details go here]</p>
+                          <p>[Detalhes do relatório de estado aqui]</p>
                         )}
                       </div>
                     </>
                   )}
-                  <h5>Intervention Report</h5>
+                  <h5>Relatório de Intervenção</h5>
                   <div className="conservation-process">
                     {projectId === 'apresentacao-jesus-templo' ? (
                       <p>Foi realizada aspiração superficial, desinfestação, limpeza química da camada de verniz oxidado e repintes disfuncionais, tratamento dos elementos metálicos, colmatação e nivelamento de lacunas de estratos pictóricos e douramento, reintegração cromática e aplicação de uma nova camada de verniz.</p>
@@ -327,7 +330,7 @@ export const ProjectDetail = () => {
                     ) : projectId === 'romy-castro-culturgest' ? (
                       <p>Remoção dos resíduos de adesivo do painel e do tardoz do azulejo, limpeza química, adesão do azulejo ao painel.</p>
                     ) : (
-                      <p>[Conservation process details go here]</p>
+                      <p>[Detalhes do processo de conservação aqui]</p>
                     )}
                   </div>
                 </div>
