@@ -2,9 +2,9 @@
 
 A professional portfolio for Vera Martins, Conservator and Restorer, built with React. 
 
-### [live preview](https://veramartins-cr.github.io/portfolio/)
+### [live preview](https://VeraMartins-CR.github.io/portfolio/)
 
-[![react portfolio](src/assets/images/react%20portfolio%20gif.gif)](https://veramartins-cr.github.io/portfolio/)
+[![react portfolio](src/assets/images/react%20portfolio%20gif.gif)](https://VeraMartins-CR.github.io/portfolio/)
 
 ### About Vera Martins
 
@@ -22,7 +22,7 @@ Licenciada e mestre em Conservação e Restauro pela Faculdade de Ciências e Te
 
 Get the code
 
-<pre>git clone https://github.com/veramartins-cr/portfolio.git</pre>
+<pre>git clone https://github.com/VeraMartins-CR/portfolio.git</pre>
  
 Install required dependencies
 
