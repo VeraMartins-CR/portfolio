@@ -2,9 +2,9 @@
 
 A professional portfolio for Vera Martins, Conservator and Restorer, built with React. 
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+### [live preview](https://veramartins-cr.github.io/portfolio/)
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+[![react portfolio](src/assets/images/react%20portfolio%20gif.gif)](https://veramartins-cr.github.io/portfolio/)
 
 ### About Vera Martins
 
@@ -22,7 +22,7 @@ Licenciada e mestre em Conservação e Restauro pela Faculdade de Ciências e Te
 
 Get the code
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
+<pre>git clone https://github.com/veramartins-cr/portfolio.git</pre>
  
 Install required dependencies
 
