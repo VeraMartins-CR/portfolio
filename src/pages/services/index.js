@@ -21,15 +21,6 @@ export const Services = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="12">
-              <h3 className="color_sec py-4">Documentação Técnica</h3>
-              <p>
-                Elaboração de condition reports e documentação fotográfica, conforme exigido em processos
-                de incorporação, empréstimo e exposição de obras de arte.
-              </p>
-          </Col>
-        </Row>
-        <Row className="sec_sp">
-          <Col lg="12">
               <h3 className="color_sec py-4">Conservação Preventiva</h3>
               <ul className="service-list">
                 <li>Desenvolvimento de embalagens adequadas para o acondicionamento de obras em reserva e
@@ -43,10 +34,8 @@ export const Services = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="12">
-              <h3 className="color_sec py-4">Restauro</h3>
+              <h3 className="color_sec py-4">Conservação e Restauro</h3>
               <ul className="service-list">
-                <li>Intervenções de conservação e restauro em pinturas realizadas com diferentes técnicas,
-                suportes e períodos históricos (do século XVI à arte contemporânea).</li>
                 <li>Intervenções de conservação e restauro em esculturas realizadas com diferentes técnicas,
                 suportes e períodos históricos (do século XVI à arte contemporânea).</li>
                 <li>Disponibilidade de uma rede de contactos especializada em áreas de conservação e restauro
@@ -57,11 +46,10 @@ export const Services = () => {
         <Row className="sec_sp">
           <Col lg="12">
               <h3 className="color_sec py-4">Consultoria</h3>
-              <p>
-                Consultoria para artistas em atividade, com orientação sobre materiais e técnicas, visando
-                compreender a compatibilidade entre os materiais, o seu comportamento ao longo do tempo
-                e a procura por soluções técnicas para os seus desafios atuais.
-              </p>
+              <ul className="service-list">
+                <li>Orientação para colecionadores sobre as melhores práticas de preservação das suas coleções.</li>
+                <li>Apoio a artistas em atividade, oferecendo aconselhamento sobre materiais e técnicas, avaliando a compatibilidade dos elementos utilizados, o seu comportamento ao longo do tempo e propondo soluções técnicas para desafios específicos.</li>
+              </ul>
           </Col>
         </Row>
       </Container>

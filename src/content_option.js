@@ -8,7 +8,7 @@ const introdata = {
     title: "Sou a Vera Martins",
     animated: {
         first: "Conservo património cultural",
-        second: "Restauro pinturas e obras de arte",
+        second: "Restauro pinturas entre outras obras de arte",
         third: "Preservo o nosso legado cultural",
     },
     description: "Licenciada e mestre em Conservação e Restauro pela Faculdade de Ciências e Tecnologia – Universidade Nova de Lisboa (FCT UNL), com especialização em pintura. Desde o início da minha formação académica, desenvolvi estágios e colaborei como freelancer, adquirindo uma sólida experiência em conservação preventiva.",
@@ -75,15 +75,15 @@ const skills = [{
 
 const services = [{
         title: "Conservação Preventiva",
-        description: "Desenvolvimento de embalagens adequadas para o acondicionamento de obras em reserva e reorganização de espaços de reserva museológicos.",
+        description: "Elaboração de condition reports e documentação fotográfica de obras de arte, para registo em base de dados, processos de incorporação, empréstimos, exposições e outros fins museológicos. Acompanhamento como courier em todas as fases de movimentação de obras: embalamento, transporte, montagem e desmontagem de exposições. Desenvolvimento de soluções de acondicionamento para obras em reserva museológica ou para transporte, e reorganização e otimização de espaços de reserva museológicos. Gestão de inventário e atualização da documentação das peças, prevenindo a dissociação de informações.",
     },
     {
-        title: "Restauro de Pinturas",
-        description: "Intervenções de conservação e restauro em pinturas realizadas com diferentes técnicas, suportes e períodos históricos.",
+        title: "Conservação e Restauro",
+        description: "Intervenções de conservação e restauro em pinturas e esculturas, abrangendo diversas técnicas e suportes. Disponibilidade de uma rede de contactos especializados para áreas complementares de conservação e restauro fora da minha especialização.",
     },
     {
-        title: "Documentação Técnica",
-        description: "Elaboração de condition reports e documentação fotográfica, conforme exigido em processos de incorporação, empréstimo e exposição de obras de arte.",
+        title: "Consultoria",
+        description: "Orientação para colecionadores sobre as melhores práticas de preservação das suas coleções. Apoio a artistas em atividade, oferecendo aconselhamento sobre materiais e técnicas, avaliando a compatibilidade dos elementos utilizados, o seu comportamento ao longo do tempo e propondo soluções técnicas para desafios específicos.",
     },
 ];
 
@@ -106,13 +106,13 @@ const dataportfolio = [{
         title: "Nossa Senhora com o menino e S. João Batista",
     },
     {
-        img: require("./assets/images/Pedestal com figura de peixe estilizado/1 (editada - preto).jpg"),
+        img: require("./assets/images/Pedestal com figura de peixe estilizado/2 (editada - preto).jpg"),
         description: "Pedestal com figura de peixe estilizado",
         link: "/project/pedestal-peixe-estilizado",
         title: "Pedestal com figura de peixe estilizado",
     },
     {
-        img: require("./assets/images/Jesus Crucificado/1 (editada).jpg"),
+        img: require("./assets/images/Jesus Crucificado/3 (editada).jpg"),
         description: "Jesus Cristo Crucificado",
         link: "/project/jesus-cristo-crucificado",
         title: "Jesus Cristo Crucificado",
@@ -125,9 +125,9 @@ const dataportfolio = [{
     },
     {
         img: require("./assets/images/Romy Castro, Culturgest/9.JPG"),
-        description: "Romy Castro, Culturgest",
+        description: "Sem título",
         link: "/project/romy-castro-culturgest",
-        title: "Romy Castro, Culturgest",
+        title: "Sem título",
     },
 ];
 
