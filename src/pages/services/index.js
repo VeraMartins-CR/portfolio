@@ -23,12 +23,10 @@ export const Services = () => {
           <Col lg="12">
               <h3 className="color_sec py-4">Conservação Preventiva</h3>
               <ul className="service-list">
-                <li>Desenvolvimento de embalagens adequadas para o acondicionamento de obras em reserva e
-                reorganização de espaços de reserva museológicos.</li>
-                <li>Acompanhamento como courier durante o embalamento, transporte, montagem e
-                desmontagem de exposições.</li>
-                <li>Gestão de inventário e manutenção de documentação de peças,
-                prevenindo a dissociação de informações.</li>
+                <li>Elaboração de condition reports e documentação fotográfica de obras de arte, para registo em base de dados, processos de incorporação, empréstimos, exposições e outros fins museológicos.</li>
+                <li>Acompanhamento como courier em todas as fases de movimentação de obras: embalamento, transporte, montagem e desmontagem de exposições.</li>
+                <li>Desenvolvimento de soluções de acondicionamento para obras em reserva museológica ou para transporte, e reorganização e otimização de espaços de reserva museológicos.</li>
+                <li>Gestão de inventário e atualização da documentação das peças, prevenindo a dissociação de informações.</li>
               </ul>
           </Col>
         </Row>
